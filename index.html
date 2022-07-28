@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- navbar start -->
-        <section class="container">
+        <section id="home" class="container">
             <nav class="navbar navbar-expand-lg fixed-top bg-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">Navbar</a>
@@ -25,23 +25,23 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#deals">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link">About</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <div class="btn btn-primary">Register</div>
+                                <div class="btn btn-primary"><a href="#register"></a>Register</div>
                             </li>
                         </ul>
                     </div>
@@ -111,7 +111,7 @@
         <!-- carousel add end -->
         <main>
             <!-- Discover section start -->
-            <section class="container my-5">
+            <section id="courses" class="container my-5">
                 <div class="text-center">
                     <h1 class="font-weight-bold">Discover Our Popular <br> Courses</h1>
                     <p class="text-muted">It is a long established fact that a reader will be distracted <br> by the
@@ -233,7 +233,7 @@
     </section>
     <!-- Explore section end  -->
     <!-- Ready to join Section start -->
-    <section class="container my-5 d-lg-flex justify-content-between bg-primary p-5 rounded" id="deals">
+    <section id="deals" class="container my-5 d-lg-flex justify-content-between bg-primary p-5 rounded" id="deals">
         <div class="text-white">
             <h1 class="">Ready to join?</h1>
             <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page
@@ -251,7 +251,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Registration From</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <button id="register" type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -321,7 +321,7 @@
     <!-- Ready to join Section end -->
 
     <!-- Successfull Students section start -->
-    <section class="container my-5" id="success">
+    <section id="success" class="container my-5" id="success">
         <h1 class="font-weight-bold">Meet Our Successfull <br> Students</h1>
         <p class="text-muted">It is a long established fact that a reader will be distracted by <br> the readable
             content of a page when looking at its layout.</p>
@@ -384,7 +384,7 @@
     <section class="container my-5 text-center">
 
         <div>
-            <h1 class="font-weight-bold">Frequently Asked Questions</h1>
+            <h1 id="about" class="font-weight-bold">Frequently Asked Questions</h1>
             <p class="text-muted">It is a long established fact that a reader will be distracted by <br> the readable
                 content of a page when looking at its layout.</p>
         </div>
